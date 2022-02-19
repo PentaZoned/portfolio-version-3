@@ -1,16 +1,25 @@
+body {
+    background-image: radial-gradient(white, #B4FFD2);
+}
+
 ul {
     list-style: disc;
+}
+
+.navbar {
+    background-color: #DFFEF9;
 }
 
 #about,
 #projects,
 #work,
 #contact {
-    margin: 30px 350px;
+    margin: 30px 500px;
     border: 4px solid black;
     border-radius: 20px;
+    background-color: white;
 }
 
-#about {
-    margin: 30px 500px;
+#contact {
+    margin: 30px 700px;
 }
