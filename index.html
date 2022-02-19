@@ -13,50 +13,52 @@
 </head>
 
 <body>
-    <header>
-        <nav class="nav navbar col d-flex justify-content-end">
+    <header class="d-flex flex-row">
+        <div class="order-1 navbar fs-4 name">
+            Bradley Le
+        </div>
+        <nav class="nav navbar col d-flex justify-content-end order-2">
             <a class="nav-link fs-4" href="#about">About Me</a>
             <a class="nav-link fs-4" href="#projects">Projects</a>
-            <a class="nav-link fs-4" href="assets/Resume.pdf" target="_blank">Resume</a>
+            <a class="nav-link fs-4" href="assets/resume.pdf" target="_blank">Resume</a>
             <a class="nav-link fs-4" href="#work">Work History</a>
             <a class="nav-link fs-4" href="#contact">Contact Me</a>
         </nav>
-        <img src="assets/images/banner.jpg">
+
     </header>
 
     <main>
-        <section id="about" class="p-4">
-            <h2 class="text-center">
-                About Me
-            </h2>
-            <hr>
-            <div class="d-flex flex-row">
-                <div class="order-1">
-                    <img src="assets/images/self-portrait.jpg" alt="portrait of Bradley Le">
-                </div>
-                <div class="order-2 p-3">
-                    <p>
-                        My name is Bradley Le. I was born and raised in Hayward, CA. I live in a very diverse urban
-                        community.
-                    </p>
-                    <p>
-                        Ever since I was young, I would be interested in technology. I remember being four years old and
-                        pressing random buttons on a keyboard just because I was interested in what it does. With access
-                        to computers, I developed a deep interest in a future occupation that would involve
-                        around
-                        the use of a computer. During my time in college, I narrowed my interests to web developer and
-                        UI/UX
-                        designer because I enjoy visually seeing my work and how it affects users. Naturally, I decided
-                        to
-                        choose web developer as a more hands-on, technical occupation to persue.
-                    </p>
-                </div>
+        <img src="assets/images/banner.jpg" class="img-fluid">
+        <section id="about" class="p-4 d-flex flex-row">
+            <!--self-portrait-->
+            <div class="aboutPic order-1">
+                <img src="assets/images/self-portrait.jpg" alt="portrait of Bradley">
             </div>
-            <p>
-                During my training to becoming a web developer, I started understanding that being a web developer is
-                more than just displaying webpages or having forms. It's more about building, creating, and maintaining
-                websites towards ensuring a smooth experience for the user.
-            </p>
+
+            <!--text content-->
+            <div class="p-4 order-2">
+                <h2 class="text-center">
+                    About Me
+                </h2>
+                <hr>
+                <p>
+                    My name is Bradley Le. I was born and raised in Hayward, CA. I live in a very diverse urban
+                    community.
+                </p>
+                <p>
+                    Ever since I was young, I would be interested in technology. I remember being four years old and
+                    pressing random buttons on a keyboard just because I was interested in what it does. I had constant
+                    access to computers so I developed a deep interest in a future occupation that would involve around
+                    the use of a computer. During my time in college, I narrowed my interests to web developer and UI/UX
+                    designer because I enjoy visually seeing my work and how it affects users. Naturally, I decided to
+                    choose web developer as a more hands-on, technical occupation to persue.
+                </p>
+                <p>
+                    After beginning my training as a web developer. I started to understand that web development is more
+                    than just creating static webpages and displaying forms. It's about creating, building, and
+                    maintaining websites to ensure a smooth experience for the user.
+                </p>
+            </div>
         </section>
 
         <section id="projects">

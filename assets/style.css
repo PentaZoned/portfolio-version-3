@@ -10,6 +10,21 @@ ul {
     background-color: #DFFEF9;
 }
 
+.name {
+    padding-left: 35px;
+}
+
+.aboutPic {
+    margin: auto;
+    flex-direction: column;
+    order:1;
+}
+
+.aboutText {
+    flex-direction: column;
+    order:2;
+}
+
 #about,
 #projects,
 #work,
@@ -22,4 +37,81 @@ ul {
 
 #contact {
     margin: 30px 700px;
+}
+
+@media only screen and (max-width: 600px) {
+    #about,
+    #projects,
+    #work,
+    #contact {
+        margin: 0;
+    }
+
+    #about {
+        flex-wrap: wrap;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #about,
+    #projects,
+    #work {
+        margin: 20px;
+    }
+
+    #contact {
+        margin: 20px 150px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #about,
+    #projects,
+    #work {
+        margin: 40px;
+    }
+
+    #contact {
+        margin: 40px 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #about,
+    #projects,
+    #work {
+        margin: 30px 50px;
+    }
+
+    #contact {
+        margin: 30px 300px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #about,
+    #projects,
+    #work {
+        margin: 30px 250px;
+    }
+
+    #contact {
+        margin: 30px 400px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    #about,
+    #projects,
+    #work {
+        margin: 30px 500px;
+    }
+
+    #contact {
+        margin: 30px 700px;
+    }
 }
