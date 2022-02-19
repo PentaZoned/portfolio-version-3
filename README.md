@@ -22,10 +22,6 @@ Navigating through the portfolio.
 
 What the user views when the first enter the webpage.
 
-* ![Screenshot 2]()
-
-The last project shown and my contact information.
-
 ## Authors
 
 * **Bradley Le** 
